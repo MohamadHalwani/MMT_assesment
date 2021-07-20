@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>UR5e_URDF</name>
+  <version>1.0.0</version>
+  <description>The UR5e_URDF package</description>
+
+  <maintainer email="mohammad_h95@hotmail.com">ubuntu</maintainer>
+
+  <license>TODO</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>roslaunch</test_depend>
+<build_export_depend>joint_state_publisher</build_export_depend>
+<build_export_depend>robot_state_publisher</build_export_depend>
+<build_export_depend>xacro</build_export_depend>
+<exec_depend>joint_state_publisher</exec_depend>
+<exec_depend>robot_state_publisher</exec_depend>
+<exec_depend>xacro</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
